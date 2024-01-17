@@ -1,0 +1,62 @@
+
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 4rem;
+}
+
+.logo img {
+    top: 0;
+    width: 9.5rem;
+    font-weight: 600;
+}
+
+.menu {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+.nav__item a{
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.nav__item a:hover {
+    color: inherit;
+}
+
+.nav__item a.active__link {
+    color:black;
+}
+
+.mobile__menu {
+    font-size: 1.3rem;
+    color: brown;
+    display: none;
+}
+
+.sticky__header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 4rem;
+    background: #fff;
+    position: sticky;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 999;
+}
+
+button {
+    background-color: #ddd;
+}
+
+
+
+
